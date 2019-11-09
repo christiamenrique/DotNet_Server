@@ -1,26 +1,46 @@
 import React, { Component } from 'react';
+import './style/home.scss'
 
 export class Home extends Component {
   static displayName = Home.name;
-
-  render () {
-    return (
-      <div>
-        <h1>Hello, world!</h1>
-        <p>Welcome to your new single-page application, built with:</p>
-        <ul>
-          <li><a href='https://get.asp.net/'>ASP.NET Core</a> and <a href='https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx'>C#</a> for cross-platform server-side code</li>
-          <li><a href='https://facebook.github.io/react/'>React</a> for client-side code</li>
-          <li><a href='http://getbootstrap.com/'>Bootstrap</a> for layout and styling</li>
-        </ul>
-        <p>To help you get started, we have also set up:</p>
-        <ul>
-          <li><strong>Client-side navigation</strong>. For example, click <em>Counter</em> then <em>Back</em> to return here.</li>
-          <li><strong>Development server integration</strong>. In development mode, the development server from <code>create-react-app</code> runs in the background automatically, so your client-side resources are dynamically built on demand and the page refreshes when you modify any file.</li>
-          <li><strong>Efficient production builds</strong>. In production mode, development-time features are disabled, and your <code>dotnet publish</code> configuration produces minified, efficiently bundled JavaScript files.</li>
-        </ul>
-        <p>The <code>ClientApp</code> subdirectory is a standard React application based on the <code>create-react-app</code> template. If you open a command prompt in that directory, you can run <code>npm</code> commands such as <code>npm test</code> or <code>npm install</code>.</p>
-      </div>
-    );
+  render() {
+      return (
+          <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
+              <ol className="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div className="carousel-inner">
+                  <div className="carousel-item slide-1 active">
+                      <div className="imgText">
+                          <h2>Welcome to The Best Electronic Store</h2>
+                          <p>We dedicate our lives to making sure that everyone is up to date with the newest technology at the best prices.</p>
+                      </div>
+                  </div>
+                  <div className="carousel-item slide-2">
+                      <div className="imgText">
+                          <h2>Products</h2>
+                          <p>We have a variety of products including smart televitions, drones, speackers and others. For more go to our product page</p>
+                      </div>
+                  </div>
+                  <div className="carousel-item slide-3">
+                      <div className="imgText">
+                          <h2>Contact Us</h2>
+                          <p>If you have any questions or consurns feel free to reach out by going to the contact page. Thank you for shopping with us</p>
+                      </div>
+                  </div>
+              </div>
+              <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                  <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span className="sr-only">Previous</span>
+              </a>
+              <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                  <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span className="sr-only">Next</span>
+              </a>
+          </div>
+      );
   }
 }
+

@@ -23,14 +23,11 @@ namespace ecommerce.Models
         {
             modelBuilder.Entity<Products>(entity =>
             {
-                entity.HasKey(e => e.Id)
-                    .HasName("PRIMARY");
-
                 entity.ToTable("products");
 
-                entity.Property(e => e.Id)
+                entity.Property(e => e.id)
                     .HasColumnName("id")
-                    .HasColumnType("int(11)");
+                    .HasColumnType("int()");
 
                 entity.Property(e => e.typeOfproduct)
                     .IsRequired()
@@ -46,6 +43,10 @@ namespace ecommerce.Models
                     .IsRequired()
                     .HasColumnName("product_name")
                     .HasColumnType("varchar(100)");
+                
+                 entity.Property(e => e.img)
+                    .HasColumnName("img")
+                    .HasColumnType("varchar(250)");
 
                 entity.Property(e => e.prices)
                     .HasColumnName("prices")
@@ -53,11 +54,7 @@ namespace ecommerce.Models
 
                 entity.Property(e => e.quantity)
                     .HasColumnName("quantity")
-                    .HasColumnType("int(11)");
-
-                // entity.Property(e => e.img)
-                //     .HasColumnName("img")
-                //     .HasColumnType("varchar(250)");
+                    .HasColumnType("int()");
             });
 
             OnModelCreatingPartial(modelBuilder);

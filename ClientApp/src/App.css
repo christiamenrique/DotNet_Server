@@ -1,0 +1,55 @@
+input {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.edit {
+    margin-bottom: 50px ;
+    margin-top: 70px;
+    text-decoration: none;
+    color: black;
+}
+
+.delete {
+    color: black;
+}
+
+.create {
+    width: 40%;
+    float: left;
+    /* background-color: #FFFAF0; */
+    margin-left: 20%;
+}
+
+.create label {
+    display: flex;
+    
+}
+
+.create button {
+    display: block;
+    margin-bottom: 40px;
+}
+.update {
+    width: 40%;
+    float: right;
+}
+.update label{
+    display: flex;
+}
+
+.update button {
+    display: block;
+    margin-bottom: 40px;
+}
+
+.create h2 {
+    margin-bottom: 20%;
+    margin-top: 5%;
+}
+
+.update h2 {
+    margin-bottom: 20%;
+    margin-top: 5%;
+}
+

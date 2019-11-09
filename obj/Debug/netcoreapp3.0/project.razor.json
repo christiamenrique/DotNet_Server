@@ -14434,13 +14434,13 @@
   "RootNamespace": "ecommerce",
   "Documents": [
     {
-      "FilePath": "Pages/Error.cshtml",
-      "TargetPath": "Pages/Error.cshtml",
+      "FilePath": "Pages/_ViewImports.cshtml",
+      "TargetPath": "Pages/_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "Pages/_ViewImports.cshtml",
-      "TargetPath": "Pages/_ViewImports.cshtml",
+      "FilePath": "Pages/Error.cshtml",
+      "TargetPath": "Pages/Error.cshtml",
       "FileKind": "mvc"
     }
   ],

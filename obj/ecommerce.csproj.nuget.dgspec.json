@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/christiamhernandez/Desktop/cSharpApi/ecommerce/ecommerce.csproj": {}
+    "/Users/christiamhernandez/Desktop/Project4/ecommerce.csproj": {}
   },
   "projects": {
-    "/Users/christiamhernandez/Desktop/cSharpApi/ecommerce/ecommerce.csproj": {
+    "/Users/christiamhernandez/Desktop/Project4/ecommerce.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/christiamhernandez/Desktop/cSharpApi/ecommerce/ecommerce.csproj",
+        "projectUniqueName": "/Users/christiamhernandez/Desktop/Project4/ecommerce.csproj",
         "projectName": "ecommerce",
-        "projectPath": "/Users/christiamhernandez/Desktop/cSharpApi/ecommerce/ecommerce.csproj",
+        "projectPath": "/Users/christiamhernandez/Desktop/Project4/ecommerce.csproj",
         "packagesPath": "/Users/christiamhernandez/.nuget/packages/",
-        "outputPath": "/Users/christiamhernandez/Desktop/cSharpApi/ecommerce/obj/",
+        "outputPath": "/Users/christiamhernandez/Desktop/Project4/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/christiamhernandez/.nuget/NuGet/NuGet.Config"
