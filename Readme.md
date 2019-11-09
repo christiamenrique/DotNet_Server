@@ -1,20 +1,48 @@
 # C# Admin server with .NET Core
+
 This application has a .NET C# REST API backend that fetches data from a MySQL DB that interacts with a React Application that allows you create new entries, read, delete, and update to the MySQL DB.
+
 
 ## Demo
 Below is a demo of the page utilizing CRUD methods.
 
+
 ### Read
-![](diagram/demo/read.gif)
+![](work/demo/read.gif)
+
 
 ### Create
-![](diagram/demo/create.gif)
+![](work/demo/create.gif)
+
 
 ### Update
-![](diagram/demo/update.gif)
+![](work/demo/update.gif)
+
 
 ### DELETE
-![](diagram/demo/delete.gif))
+![](work/demo/delete.gif))
+
+
+## Images
+
+### Read
+![Read](read.png)
+
+
+### Create
+![Create](create.png)
+![Create](create2.png)
+
+
+### Update
+![Update](put.png)
+![Update](put2.png)
+
+
+### Delete
+![Delete](delete.png)
+
+
 
 ### Built With
 
