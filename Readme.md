@@ -44,7 +44,7 @@ Updating previews product Using Post Method with Using Put
 ## Delete
 After updating but before deleting the product
 ![Updatescreenshot](work/images/put2.png)
-Deleting the item just made with the id 18 by pressing de delete button. After deleting the item have been remove.
+Deleting the item made with the id 18 by pressing de delete button. After deleting the item have been remove.
 ![Delete Screenshot](work/images/delete.png)
 
 
