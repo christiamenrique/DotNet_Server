@@ -25,26 +25,40 @@ Below is a demo of the page utilizing CRUD methods.
 
 ## Images
 
-### Read
-![Read](read.png)
+## Read
+This demonstrates that my front end react application was able to fetch data from my .NET backend
+![Read screenshot](work/images/read.png)
+
+## Create
+I first created a new product
+![Create screenshot](work/images/create.png)
+
+The product that I created was added to the list of all products
+![Create screenshot](work/images/create2.png)
 
 
-### Create
-![Create](create.png)
-![Create](create2.png)
+## Update
+Updating previews product Using Post Method with Using Put
+![Update screenshot](work/images/put.png)
+
+## Delete
+After updating but before deleting the product
+![Updatescreenshot](work/images/put2.png)
+Deleting the item just made with the id 18 by pressing de delete button. After deleting the item have been remove.
+![Delete Screenshot](work/images/delete.png)
 
 
-### Update
-![Update](put.png)
-![Update](put2.png)
+## Intalling 
+* Clone this repo and 
+* Then in the C# files change the connection string in the startup file to the  database that it will be connect.
+* Then run the application using : 
+```
+npm run start
+```
+* The backend and the frontend will establish a connection with each other.
+* If running into any problems go to the build with resources showing below
 
-
-### Delete
-![Delete](delete.png)
-
-
-
-### Built With
+### Built With 
 
 * [React](https://reactjs.org/docs/getting-started.html) - JavaScript library for building user interfaces
 * [C#](https://docs.microsoft.com/en-us/dotnet/csharp/) - An elegant and type-safe object-oriented language that enables developers to build a variety of secure and robust applications that run on the .NET Framework.
@@ -58,3 +72,7 @@ Below is a demo of the page utilizing CRUD methods.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+
+
+ 
