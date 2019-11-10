@@ -53,7 +53,7 @@ Deleting the item made with the id 18 by pressing de delete button. After deleti
 * Then in the C# files change the connection string in the startup file to the  database that it will be connect.
 * Then run the application using : 
 ```
-npm run start
+dotnet run
 ```
 * The backend and the frontend will establish a connection with each other.
 * If running into any problems go to the build with resources showing below
